@@ -94,6 +94,10 @@ table {
   border-collapse: collapse;
 }
 
+td{
+  padding-left: 33px;
+}
+
 tr:nth-child(-n + 3) {
   border-bottom: 1px solid var(--light-grey);
 }
