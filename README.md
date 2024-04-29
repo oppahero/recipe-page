@@ -27,8 +27,8 @@ In this practice the card must be able to adjust its size depending on the width
 
 ### Links
 
-- Solution URL: [Repo](https://github.com/oppahero/recipe-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Recipe page build with HTML and CSS]([https://github.com/oppahero/recipe-page](https://www.frontendmentor.io/solutions/recipe-page-build-with-html-and-css-C8KcQC1DNP))
+- Live Site URL: [Site](https://oppahero.github.io/recipe-page/)
 
 ## My process
 
