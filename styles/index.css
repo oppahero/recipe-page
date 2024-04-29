@@ -40,7 +40,7 @@ main {
 }
 
 h1,
-h2{
+h2 {
   font-family: Young-serif;
 }
 
@@ -79,11 +79,11 @@ ol li {
   font-family: Outfit;
 }
 
-ol li::marker{
+ol li::marker {
   font-weight: 600;
 }
 
-ul li::marker{
+ul li::marker {
   font-size: 0.8em;
 }
 
@@ -94,7 +94,7 @@ table {
   border-collapse: collapse;
 }
 
-td{
+td {
   padding-left: 33px;
 }
 
@@ -158,17 +158,16 @@ tr:nth-child(-n + 3) {
 }
 
 @media (min-width: 668px) {
-  .card{
+  .card {
     padding: 39px;
     border-radius: 10px;
   }
 
-  .card__body{
-    padding-right:0;
-    padding-left: 0;
+  .card__body {
+    padding: 35px 0 0 0;
   }
 
-  .card img{
+  .card img {
     border-radius: 10px;
   }
 }
