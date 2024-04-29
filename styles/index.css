@@ -1,7 +1,134 @@
+@font-face {
+  font-family: "Outfit";
+  src: url("../assets/fonts/outfit/Outfit-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: "Young-serif";
+  src: url("../assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  font-weight: 400;
+}
+
 :root {
+  --nutmeg: hsl(14, 45%, 36%);
+  --dark-raspberry: hsl(332, 51%, 32%);
+  --neutral-White: hsl(0, 0%, 100%);
+  --rose-white: hsl(330, 100%, 98%);
+  --eggshell: hsl(30, 54%, 90%);
+  --light-grey: hsl(30, 18%, 87%);
+  --wenge-brown: hsl(30, 10%, 34%);
+  --dark-charcoal: hsl(24, 5%, 18%);
 }
 
 * {
   margin: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-size: 1rem;
+  background: var(--eggshell);
+}
+
+main {
+  /* height: 100%; */
+  min-width: 320px;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
+
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+}
+
+h1 {
+  font-family: Young-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--dark-charcoal);
+}
+
+h2 {
+  font-family: Young-serif;
+  color: var(--nutmeg);
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: Outfit;
+  color: var(--wenge-brown);
+  line-height: 25px;
+}
+
+ul,
+ol {
+  padding: 0 0 0 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+ol li {
+  color: var(--nutmeg);
+  font-family: Outfit;
+}
+
+li {
+  padding-left: 10px;
+}
+
+.separator {
+  background: var(--light-grey);
+  height: 1px;
+  margin: 31px 0 33px 0;
+}
+
+.li--nutmeg {
+  color: var(--nutmeg);
+}
+
+.li--pink {
+  color: var(--dark-raspberry);
+}
+
+.card {
+  /* max-width: 20rem; */
+  max-width: 23.438rem;
+  background: var(--neutral-White);
+}
+
+.card table {
+  margin-top: 27px;
+}
+
+.card img {
+  height: 170px;
+  object-fit: cover;
+  width: 100%;
+}
+
+.card h1 {
+  margin-bottom: 25px;
+}
+
+.card__body {
+  padding: 40px 27px;
+}
+
+.info-container {
+  background: var(--rose-white);
+  padding: 24px;
+  margin: 36px 0 32px 0;
+}
+
+.info-container h2 {
+  color: var(--dark-raspberry);
+  font-family: Outfit;
+  font-size: 1rem;
+  margin-bottom: 18px;
 }
