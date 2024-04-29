@@ -25,10 +25,6 @@ In this practice the card must be able to adjust its size depending on the width
 
 ![](./assets/images/screenshots.png)
 
-
-#### CSS Specificity Graph
-![](./assets/images/specificity.png)
-
 ### Links
 
 - Solution URL: [Repo](https://github.com/oppahero/recipe-page)
@@ -48,6 +44,10 @@ In this practice the card must be able to adjust its size depending on the width
 ### What I learned
 
 Instead of changing the width of the card using media queries, it was allowed to scale its size freely, limiting its max-width at rem.
+
+
+#### CSS Specificity Graph
+![](./assets/images/specificity.png)
 
 ### Continued development
 
