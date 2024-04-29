@@ -1,6 +1,6 @@
 # Recipe page solution
 
-This is a solution to the "Recipe page" challenge on Frontend Mentor.
+This is my solution to the "Recipe page" challenge on Frontend Mentor.
 
 ## Table of contents
 
@@ -23,7 +23,11 @@ In this practice the card must be able to adjust its size depending on the width
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./assets/images/screenshots.png)
+
+
+#### CSS Specificity Graph
+![](./assets/images/specificity.png)
 
 ### Links
 
