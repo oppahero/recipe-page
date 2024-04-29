@@ -45,23 +45,23 @@ main {
 }
 
 h1 {
+  color: var(--dark-charcoal);
   font-family: Young-serif;
   font-size: 2rem;
   font-weight: 700;
-  color: var(--dark-charcoal);
 }
 
 h2 {
-  font-family: Young-serif;
+  margin-bottom: 25px;
   color: var(--nutmeg);
+  font-family: Young-serif;
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 25px;
 }
 
 p {
-  font-family: Outfit;
   color: var(--wenge-brown);
+  font-family: Outfit;
   line-height: 25px;
 }
 
@@ -82,10 +82,21 @@ li {
   padding-left: 10px;
 }
 
+table {
+  width: 100%;
+  font-family: Outfit;
+  color: var(--wenge-brown);
+  border-collapse: collapse;
+}
+
+tr:nth-child(-n + 3) {
+  border-bottom: 1px solid var(--light-grey);
+}
+
 .separator {
-  background: var(--light-grey);
   height: 1px;
   margin: 31px 0 33px 0;
+  background: var(--light-grey);
 }
 
 .li--nutmeg {
@@ -108,8 +119,8 @@ li {
 
 .card img {
   height: 170px;
-  object-fit: cover;
   width: 100%;
+  object-fit: cover;
 }
 
 .card h1 {
@@ -121,14 +132,19 @@ li {
 }
 
 .info-container {
-  background: var(--rose-white);
   padding: 24px;
   margin: 36px 0 32px 0;
+  background: var(--rose-white);
 }
 
 .info-container h2 {
+  margin-bottom: 18px;
   color: var(--dark-raspberry);
   font-family: Outfit;
   font-size: 1rem;
-  margin-bottom: 18px;
+}
+
+.nutritional-values {
+  color: var(--nutmeg);
+  font-weight: 700;
 }
